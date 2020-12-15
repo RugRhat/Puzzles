@@ -20,7 +20,7 @@ public:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere)
-	float Speed = 50;
+	float Speed = 50.f;
 
 	UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))			// Makes Target Location visible in editor.
 	FVector TargetLocation;
