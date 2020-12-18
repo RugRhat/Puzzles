@@ -6,9 +6,7 @@
 #include "Engine/StaticMeshActor.h"
 #include "MovingPlatforms.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class PUZZLES_API AMovingPlatforms : public AStaticMeshActor
 {
@@ -25,9 +23,15 @@ public:
 	UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))			// Makes Target Location visible in editor.
 	FVector TargetLocation;
 
+	void AddActiveTrigger();
+	void RemoveActiveTrigger();
+
 private:
 	FVector GlobalTargetLocation;
 	FVector GlobalStartLocation;
+
+	UPROPERTY(EditAnywhere)
+	int ActiveTriggers = 1;				// Allows platform to move without an assigned trigger by default.
 
 protected:
 	virtual void Tick(float DeltaTime) override;

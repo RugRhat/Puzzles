@@ -21,40 +21,41 @@ APuzzleSolver::APuzzleSolver()
 	bUseControllerRotationRoll = false;
 
 	// Character movement
-	GetCharacterMovement()->bOrientRotationToMovement = true; // Moves in direction of input	
+	GetCharacterMovement()->bOrientRotationToMovement = true;			// Moves in direction of input	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // Rotation rate for change in direction
 	GetCharacterMovement()->JumpZVelocity = 600.f;
 	GetCharacterMovement()->AirControl = 0.2f;
 
 	// Create SpringArm
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Spring Arm"));
+	if(!ensure(SpringArm != nullptr)) return;							// Ensures object isn't a null pointer.
 	SpringArm->SetupAttachment(RootComponent);
 	SpringArm->TargetArmLength = 250.f;
-	SpringArm->bUsePawnControlRotation = true;		// Camera rotation control
+	SpringArm->bUsePawnControlRotation = true;							// Camera rotation control
 
 	// Create Camera
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+	if(!ensure(Camera != nullptr)) return;								// Ensures object isn't a null pointer.
 	Camera->SetupAttachment(SpringArm);
-	Camera->bUsePawnControlRotation = false;			// SpringArm controls camera movement
+	Camera->bUsePawnControlRotation = false;							// SpringArm controls camera movement
 }
 
 // Called when the game starts or when spawned
 void APuzzleSolver::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void APuzzleSolver::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input
 void APuzzleSolver::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
+	if(!ensure(PlayerInputComponent != nullptr)) return;				// Ensures object isn't a null pointer.
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	PlayerInputComponent->BindAxis("Forward", this, &APuzzleSolver::MoveForward);
@@ -68,7 +69,7 @@ void APuzzleSolver::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 
 void APuzzleSolver::MoveForward(float Value) 
 {
-	if ((Controller != NULL) && (Value != 0.0f))		// Check for input
+	if ((Controller != NULL) && (Value != 0.0f))						// Check for input
 	{
 		FRotator Rotation = Controller->GetControlRotation();
 		FRotator YawRotation(0, Rotation.Yaw, 0);
@@ -82,7 +83,7 @@ void APuzzleSolver::MoveForward(float Value)
 
 void APuzzleSolver::MoveRight(float Value) 
 {
-	if ( (Controller != NULL) && (Value != 0.0f))		// Check for input
+	if ( (Controller != NULL) && (Value != 0.0f))						// Check for input
 	{
 		FRotator Rotation = Controller->GetControlRotation();
 		FRotator YawRotation(0, Rotation.Yaw, 0);

@@ -10,6 +10,7 @@
 class USpringArmComponent;
 class UCameraComponent;
 
+
 UCLASS()
 class PUZZLES_API APuzzleSolver : public ACharacter
 {
