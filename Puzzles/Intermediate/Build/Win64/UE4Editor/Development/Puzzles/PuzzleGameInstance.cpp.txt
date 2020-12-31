@@ -1,0 +1,3 @@
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\Definitions.Puzzles.h
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Source\Puzzles\PuzzleGameInstance.h
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Inc\Puzzles\PuzzleGameInstance.generated.h

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Puzzles.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8D631CA4-898A-4231-A63F-AFFBE609F93C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Puzzles.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PuzzlesEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Puzzles.code-workspace" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA6192CD-06CC-4C94-96BA-A5E1E1F64E45}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Puzzles">
+      <UniqueIdentifier>{2BE9FFEC-2DA9-4E46-B36E-F91B75FCC7AD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Puzzles\MovingPlatforms.cpp">
+      <Filter>Source\Puzzles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puzzles\MovingPlatforms.h">
+      <Filter>Source\Puzzles</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Puzzles\PuzzleGameInstance.cpp">
+      <Filter>Source\Puzzles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puzzles\PuzzleGameInstance.h">
+      <Filter>Source\Puzzles</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Puzzles\Puzzles.Build.cs">
+      <Filter>Source\Puzzles</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Puzzles\Puzzles.cpp">
+      <Filter>Source\Puzzles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puzzles\Puzzles.h">
+      <Filter>Source\Puzzles</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Puzzles\PuzzlesGameModeBase.cpp">
+      <Filter>Source\Puzzles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puzzles\PuzzlesGameModeBase.h">
+      <Filter>Source\Puzzles</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Puzzles\PuzzleSolver.cpp">
+      <Filter>Source\Puzzles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puzzles\PuzzleSolver.h">
+      <Filter>Source\Puzzles</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Puzzles\Trigger.cpp">
+      <Filter>Source\Puzzles</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puzzles\Trigger.h">
+      <Filter>Source\Puzzles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
