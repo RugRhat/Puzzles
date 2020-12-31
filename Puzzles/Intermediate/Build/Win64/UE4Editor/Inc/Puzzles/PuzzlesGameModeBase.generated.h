@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PUZZLES_PuzzlesGameModeBase_generated_h
 
-#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_SPARSE_DATA
-#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_RPC_WRAPPERS
-#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_SPARSE_DATA
+#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_RPC_WRAPPERS
+#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPuzzlesGameModeBase(); \
 	friend struct Z_Construct_UClass_APuzzlesGameModeBase_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(APuzzlesGameModeBase)
 
 
-#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_INCLASS \
+#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAPuzzlesGameModeBase(); \
 	friend struct Z_Construct_UClass_APuzzlesGameModeBase_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(APuzzlesGameModeBase)
 
 
-#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APuzzlesGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APuzzlesGameModeBase) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APuzzlesGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APuzzlesGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APuzzlesGameModeBase)
 
 
-#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_12_PROLOG
-#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__Solver() { return STRUCT_OFFSET(APuzzlesGameModeBase, Solver); }
+
+
+#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_10_PROLOG
+#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_SPARSE_DATA \
-	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_RPC_WRAPPERS \
-	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_INCLASS \
-	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_PRIVATE_PROPERTY_OFFSET \
+	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_SPARSE_DATA \
+	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_RPC_WRAPPERS \
+	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_INCLASS \
+	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_GENERATED_BODY \
+#define Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_SPARSE_DATA \
-	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_PRIVATE_PROPERTY_OFFSET \
+	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_SPARSE_DATA \
+	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_INCLASS_NO_PURE_DECLS \
+	Puzzles_Source_Puzzles_PuzzlesGameModeBase_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

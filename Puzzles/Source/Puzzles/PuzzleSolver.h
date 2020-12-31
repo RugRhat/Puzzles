@@ -7,25 +7,27 @@
 #include "PuzzleSolver.generated.h"
 
 
-class USpringArmComponent;
-class UCameraComponent;
-
-
 UCLASS()
 class PUZZLES_API APuzzleSolver : public ACharacter
 {
 	GENERATED_BODY()
 
 	UPROPERTY(VisibleAnywhere)
-	USpringArmComponent* SpringArm;
+	class USpringArmComponent* SpringArm;
 
 	UPROPERTY(VisibleAnywhere)
-	UCameraComponent* Camera;
+	class UCameraComponent* Camera;
 
 public:
 	// Sets default values for this character's properties
 	APuzzleSolver();
 
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+private:
+	UPROPERTY(EditDefaultsOnly)
+	class UHealthComponent* HealthComponent;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -35,9 +37,5 @@ protected:
 	void MoveForward(float Value);
 
 	void MoveRight(float Value);
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
 };

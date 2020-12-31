@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PUZZLES_PuzzleSolver_generated_h
 
-#define Puzzles_Source_Puzzles_PuzzleSolver_h_17_SPARSE_DATA
-#define Puzzles_Source_Puzzles_PuzzleSolver_h_17_RPC_WRAPPERS
-#define Puzzles_Source_Puzzles_PuzzleSolver_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define Puzzles_Source_Puzzles_PuzzleSolver_h_17_INCLASS_NO_PURE_DECLS \
+#define Puzzles_Source_Puzzles_PuzzleSolver_h_13_SPARSE_DATA
+#define Puzzles_Source_Puzzles_PuzzleSolver_h_13_RPC_WRAPPERS
+#define Puzzles_Source_Puzzles_PuzzleSolver_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define Puzzles_Source_Puzzles_PuzzleSolver_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPuzzleSolver(); \
 	friend struct Z_Construct_UClass_APuzzleSolver_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(APuzzleSolver)
 
 
-#define Puzzles_Source_Puzzles_PuzzleSolver_h_17_INCLASS \
+#define Puzzles_Source_Puzzles_PuzzleSolver_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAPuzzleSolver(); \
 	friend struct Z_Construct_UClass_APuzzleSolver_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(APuzzleSolver)
 
 
-#define Puzzles_Source_Puzzles_PuzzleSolver_h_17_STANDARD_CONSTRUCTORS \
+#define Puzzles_Source_Puzzles_PuzzleSolver_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APuzzleSolver(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APuzzleSolver) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Puzzles_Source_Puzzles_PuzzleSolver_h_17_ENHANCED_CONSTRUCTORS \
+#define Puzzles_Source_Puzzles_PuzzleSolver_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APuzzleSolver(APuzzleSolver&&); \
@@ -58,32 +58,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APuzzleSolver); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APuzzleSolver)
 
 
-#define Puzzles_Source_Puzzles_PuzzleSolver_h_17_PRIVATE_PROPERTY_OFFSET \
+#define Puzzles_Source_Puzzles_PuzzleSolver_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(APuzzleSolver, SpringArm); } \
-	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(APuzzleSolver, Camera); }
+	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(APuzzleSolver, Camera); } \
+	FORCEINLINE static uint32 __PPO__HealthComponent() { return STRUCT_OFFSET(APuzzleSolver, HealthComponent); }
 
 
-#define Puzzles_Source_Puzzles_PuzzleSolver_h_14_PROLOG
-#define Puzzles_Source_Puzzles_PuzzleSolver_h_17_GENERATED_BODY_LEGACY \
+#define Puzzles_Source_Puzzles_PuzzleSolver_h_10_PROLOG
+#define Puzzles_Source_Puzzles_PuzzleSolver_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Puzzles_Source_Puzzles_PuzzleSolver_h_17_PRIVATE_PROPERTY_OFFSET \
-	Puzzles_Source_Puzzles_PuzzleSolver_h_17_SPARSE_DATA \
-	Puzzles_Source_Puzzles_PuzzleSolver_h_17_RPC_WRAPPERS \
-	Puzzles_Source_Puzzles_PuzzleSolver_h_17_INCLASS \
-	Puzzles_Source_Puzzles_PuzzleSolver_h_17_STANDARD_CONSTRUCTORS \
+	Puzzles_Source_Puzzles_PuzzleSolver_h_13_PRIVATE_PROPERTY_OFFSET \
+	Puzzles_Source_Puzzles_PuzzleSolver_h_13_SPARSE_DATA \
+	Puzzles_Source_Puzzles_PuzzleSolver_h_13_RPC_WRAPPERS \
+	Puzzles_Source_Puzzles_PuzzleSolver_h_13_INCLASS \
+	Puzzles_Source_Puzzles_PuzzleSolver_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Puzzles_Source_Puzzles_PuzzleSolver_h_17_GENERATED_BODY \
+#define Puzzles_Source_Puzzles_PuzzleSolver_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Puzzles_Source_Puzzles_PuzzleSolver_h_17_PRIVATE_PROPERTY_OFFSET \
-	Puzzles_Source_Puzzles_PuzzleSolver_h_17_SPARSE_DATA \
-	Puzzles_Source_Puzzles_PuzzleSolver_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	Puzzles_Source_Puzzles_PuzzleSolver_h_17_INCLASS_NO_PURE_DECLS \
-	Puzzles_Source_Puzzles_PuzzleSolver_h_17_ENHANCED_CONSTRUCTORS \
+	Puzzles_Source_Puzzles_PuzzleSolver_h_13_PRIVATE_PROPERTY_OFFSET \
+	Puzzles_Source_Puzzles_PuzzleSolver_h_13_SPARSE_DATA \
+	Puzzles_Source_Puzzles_PuzzleSolver_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	Puzzles_Source_Puzzles_PuzzleSolver_h_13_INCLASS_NO_PURE_DECLS \
+	Puzzles_Source_Puzzles_PuzzleSolver_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

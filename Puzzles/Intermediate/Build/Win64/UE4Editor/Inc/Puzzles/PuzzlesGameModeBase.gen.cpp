@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePuzzlesGameModeBase() {}
 	PUZZLES_API UClass* Z_Construct_UClass_APuzzlesGameModeBase();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_Puzzles();
+	PUZZLES_API UClass* Z_Construct_UClass_APuzzleSolver_NoRegister();
 // End Cross Module References
 	void APuzzlesGameModeBase::StaticRegisterNativesAPuzzlesGameModeBase()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodePuzzlesGameModeBase() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Solver_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Solver;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -40,13 +46,22 @@ void EmptyLinkFunctionForGeneratedCodePuzzlesGameModeBase() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APuzzlesGameModeBase_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "PuzzlesGameModeBase.h" },
 		{ "ModuleRelativePath", "PuzzlesGameModeBase.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APuzzlesGameModeBase_Statics::NewProp_Solver_MetaData[] = {
+		{ "Category", "PuzzlesGameModeBase" },
+		{ "ModuleRelativePath", "PuzzlesGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APuzzlesGameModeBase_Statics::NewProp_Solver = { "Solver", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APuzzlesGameModeBase, Solver), Z_Construct_UClass_APuzzleSolver_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APuzzlesGameModeBase_Statics::NewProp_Solver_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APuzzlesGameModeBase_Statics::NewProp_Solver_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APuzzlesGameModeBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APuzzlesGameModeBase_Statics::NewProp_Solver,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APuzzlesGameModeBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APuzzlesGameModeBase>::IsAbstract,
 	};
@@ -56,11 +71,11 @@ void EmptyLinkFunctionForGeneratedCodePuzzlesGameModeBase() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_APuzzlesGameModeBase_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_APuzzlesGameModeBase_Statics::PropPointers),
 		0,
 		0x009002ACu,
 		METADATA_PARAMS(Z_Construct_UClass_APuzzlesGameModeBase_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_APuzzlesGameModeBase_Statics::Class_MetaDataParams))
@@ -74,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodePuzzlesGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APuzzlesGameModeBase, 4014529104);
+	IMPLEMENT_CLASS(APuzzlesGameModeBase, 1316603951);
 	template<> PUZZLES_API UClass* StaticClass<APuzzlesGameModeBase>()
 	{
 		return APuzzlesGameModeBase::StaticClass();

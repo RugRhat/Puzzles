@@ -7,6 +7,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "HealthComponent.h"
 
 
 // Sets default values
@@ -38,6 +39,8 @@ APuzzleSolver::APuzzleSolver()
 	if(!ensure(Camera != nullptr)) return;								// Ensures object isn't a null pointer.
 	Camera->SetupAttachment(SpringArm);
 	Camera->bUsePawnControlRotation = false;							// SpringArm controls camera movement
+
+	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("Health Component"));
 }
 
 // Called when the game starts or when spawned
@@ -94,3 +97,4 @@ void APuzzleSolver::MoveRight(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
+
