@@ -2,18 +2,54 @@
 
 
 #include "PuzzleGameInstance.h"
+#include "Blueprint/UserWidget.h"
 #include "Engine/Engine.h"
+#include "MainMenu.h"
+#include "Trigger.h"
+#include "UObject/ConstructorHelpers.h"
 
 
 UPuzzleGameInstance::UPuzzleGameInstance(const FObjectInitializer &ObjectInitializer) 
 {
-    UE_LOG(LogTemp, Warning, TEXT("Game Instance"));
+    // Allows for more control of menu ui from source code rather than blueprints.
+    ConstructorHelpers::FClassFinder<UUserWidget>MenuBPClass(TEXT("/Game/Blueprints/UI/WBP_MainMenu"));
+    if(!ensure(MenuBPClass.Class != nullptr)) return;
+
+    MenuClass = MenuBPClass.Class;
 }
 
 // Sets up custom game instance properties.
 void UPuzzleGameInstance::Init() 
 {
-    UE_LOG(LogTemp, Warning, TEXT("Game Init"));
+    UE_LOG(LogTemp, Warning, TEXT("Found class: %s"), *MenuClass->GetName());
+}
+
+// Adds menu to screen.
+void UPuzzleGameInstance::LoadMenu() 
+{
+    if(!ensure(MenuClass != nullptr)) return;
+
+    UMainMenu* Menu = CreateWidget<UMainMenu>(this, MenuClass);
+
+    Menu->AddToViewport();
+
+    APlayerController* PlayerController = GetFirstLocalPlayerController();
+    if(!ensure(PlayerController != nullptr)) return;
+
+    // Allows player to click.
+    FInputModeUIOnly InputModeData;
+    InputModeData.SetWidgetToFocus(Menu->TakeWidget());
+
+    // Allows cursor to move around screen.
+    InputModeData.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);        
+
+    PlayerController->SetInputMode(InputModeData);
+
+    // Makes mouse visible.
+    PlayerController->bShowMouseCursor = true;
+
+    Menu->SetMenuInterface(this);
+
 }
 
 // Creates console command "Host".

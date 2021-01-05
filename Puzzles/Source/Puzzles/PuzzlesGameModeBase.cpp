@@ -25,3 +25,4 @@ void APuzzlesGameModeBase::ActorDied(AActor* DeadActor)
     UE_LOG(LogTemp, Warning, TEXT("ACTOR DIED"));
     RestartPlayer(PlayerControllerRef);     // TODO: Figure out respawn.
 }
+
