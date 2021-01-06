@@ -1,0 +1,34 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Puzzles-3547.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\PuzzlesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\InGameMenu.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MainMenu.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MenuInterface.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MenuWidget.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MovingPlatforms.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\PuzzleGameInstance.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\Puzzles.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\PuzzlesGameModeBase.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\PuzzleSolver.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\Trigger.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\WinScreenMenu.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\InGameMenu.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MainMenu.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MenuInterface.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MenuWidget.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MovingPlatforms.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\PuzzleGameInstance.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\Puzzles.init.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\PuzzlesGameModeBase.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\PuzzleSolver.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\Trigger.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\WinScreenMenu.gen.cpp.obj"
+"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\Default.rc2.res"
+/OUT:"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\UE4Editor-Puzzles-3547.lib"
+/INCLUDE:IMPLEMENT_MODULE_Puzzles

@@ -29,5 +29,3 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
-C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Source\Puzzles\HealthComponent.h
-C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Inc\Puzzles\HealthComponent.generated.h

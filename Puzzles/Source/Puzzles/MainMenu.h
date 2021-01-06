@@ -3,34 +3,64 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Blueprint/UserWidget.h"
-#include "MenuInterface.h"
+#include "MenuWidget.h"
 #include "MainMenu.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class PUZZLES_API UMainMenu : public UUserWidget
+class PUZZLES_API UMainMenu : public UMenuWidget
 {
 	GENERATED_BODY()
 
-public:
-	void SetMenuInterface(IMenuInterface* MenuInterface);
-
 private:
-	// Manually create buttons in source code.
+	// Manually bind buttons.
 	UPROPERTY(meta = (BindWidget))
-	class UButton* Host;
+	class UButton* HostButton;
 
 	UPROPERTY(meta = (BindWidget))
-	class UButton* Join;
+	class UButton* JoinButton;
+
+	UPROPERTY(meta = (BindWidget))
+	class UButton* BackButton;
+
+	UPROPERTY(meta = (BindWidget))
+	class UButton* ExitButton;
+
+	UPROPERTY(meta = (BindWidget))
+	class UButton* JoinServerButton;
+
+	// Manually bind widget switcher.
+	UPROPERTY(meta = (BindWidget))
+	class UWidgetSwitcher* MenuSwitcher;
+
+	// Manually bind menu widgets.
+	UPROPERTY(meta = (BindWidget))
+	class UWidget* MainMenu;
+
+	UPROPERTY(meta = (BindWidget))
+	class UWidget* JoinMenu;
+
+	// Manually bind text box.
+	UPROPERTY(meta = (BindWidget))
+	class UEditableTextBox* IPAddress;
 	
 	UFUNCTION()
 	void HostServer();
 
-	IMenuInterface* MenuInterface;
+	UFUNCTION()
+	void JoinServer();
+
+	UFUNCTION()
+	void OpenJoinMenu();
+
+	UFUNCTION()
+	void ReturnToMain();
+
+	UFUNCTION()
+	void QuitGame();
 
 protected: 
-	virtual bool Initialize();	
+	virtual bool Initialize();
 };

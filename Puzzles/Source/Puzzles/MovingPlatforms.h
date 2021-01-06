@@ -20,7 +20,8 @@ public:
 	UPROPERTY(EditAnywhere)
 	float Speed = 50.f;
 
-	UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))			// Makes Target Location visible in editor.
+	// Makes Target Location visible in editor.
+	UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))			
 	FVector TargetLocation;
 
 	void AddActiveTrigger();
@@ -30,8 +31,9 @@ private:
 	FVector GlobalTargetLocation;
 	FVector GlobalStartLocation;
 
+	// Allows platform to move without an assigned trigger by default.
 	UPROPERTY(EditAnywhere)
-	int ActiveTriggers = 1;				// Allows platform to move without an assigned trigger by default.
+	int ActiveTriggers = 1;				
 
 protected:
 	virtual void Tick(float DeltaTime) override;

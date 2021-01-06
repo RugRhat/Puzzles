@@ -121,6 +121,8 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Source\Puzzles\MainMenu.h
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Source\Puzzles\MenuWidget.h
+C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Inc\Puzzles\MenuWidget.generated.h
 C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Inc\Puzzles\MainMenu.generated.h
 C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Source\Puzzles\Trigger.h
 C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Inc\Puzzles\Trigger.generated.h
