@@ -98,13 +98,13 @@ void EmptyLinkFunctionForGeneratedCodeWinScreenMenu() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReplayButton_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReplayButton;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MenuButton_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MenuButton;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReplayButton_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReplayButton;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -125,14 +125,6 @@ void EmptyLinkFunctionForGeneratedCodeWinScreenMenu() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_ReplayButton_MetaData[] = {
-		{ "BindWidget", "" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "WinScreenMenu.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_ReplayButton = { "ReplayButton", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UWinScreenMenu, ReplayButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_ReplayButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_ReplayButton_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_MenuButton_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "Comment", "// Manually bind buttons.\n" },
@@ -142,9 +134,17 @@ void EmptyLinkFunctionForGeneratedCodeWinScreenMenu() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_MenuButton = { "MenuButton", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UWinScreenMenu, MenuButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_MenuButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_MenuButton_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_ReplayButton_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "WinScreenMenu.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_ReplayButton = { "ReplayButton", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UWinScreenMenu, ReplayButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_ReplayButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_ReplayButton_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UWinScreenMenu_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_ReplayButton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_MenuButton,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWinScreenMenu_Statics::NewProp_ReplayButton,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UWinScreenMenu_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UWinScreenMenu>::IsAbstract,
@@ -173,7 +173,7 @@ void EmptyLinkFunctionForGeneratedCodeWinScreenMenu() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UWinScreenMenu, 2980452890);
+	IMPLEMENT_CLASS(UWinScreenMenu, 1398972203);
 	template<> PUZZLES_API UClass* StaticClass<UWinScreenMenu>()
 	{
 		return UWinScreenMenu::StaticClass();

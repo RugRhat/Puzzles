@@ -7,8 +7,6 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\PuzzlesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\DeathFloor.cpp.obj"
-"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\HealthComponent.cpp.obj"
 "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\InGameMenu.cpp.obj"
 "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MainMenu.cpp.obj"
 "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MenuInterface.cpp.obj"
@@ -20,8 +18,6 @@
 "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\PuzzleSolver.cpp.obj"
 "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\Trigger.cpp.obj"
 "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\WinScreenMenu.cpp.obj"
-"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\DeathFloor.gen.cpp.obj"
-"C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\HealthComponent.gen.cpp.obj"
 "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\InGameMenu.gen.cpp.obj"
 "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MainMenu.gen.cpp.obj"
 "C:\Users\Angelica .DESKTOP-RM5JOAJ\Documents\Learning Multiplayer\Puzzles\Puzzles\Intermediate\Build\Win64\UE4Editor\Development\Puzzles\MenuInterface.gen.cpp.obj"

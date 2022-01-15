@@ -1,0 +1,117 @@
+[
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\InGameMenu.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\InGameMenu.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\MainMenu.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\MainMenu.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\MenuInterface.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\MenuInterface.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\MenuWidget.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\MenuWidget.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\MovingPlatforms.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\MovingPlatforms.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\PuzzleGameInstance.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\PuzzleGameInstance.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\Puzzles.Build.cs",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\Puzzles.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\Puzzles.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\PuzzlesGameModeBase.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\PuzzlesGameModeBase.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\PuzzleSolver.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\PuzzleSolver.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\Trigger.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\Trigger.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\WinScreenMenu.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "F:\\\\PORTFOLIO\\\\Learning Multiplayer\\\\Puzzles\\\\Puzzles\\\\Source\\\\Puzzles\\\\WinScreenMenu.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\.vscode\\compileCommands_Default\\Puzzles.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	}
+]

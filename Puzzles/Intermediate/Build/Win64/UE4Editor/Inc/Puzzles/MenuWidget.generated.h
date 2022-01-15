@@ -39,7 +39,7 @@ public: \
 	NO_API UMenuWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMenuWidget) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMenuWidget); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMenuWidget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMenuWidget); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMenuWidget(UMenuWidget&&); \
@@ -56,7 +56,7 @@ private: \
 	NO_API UMenuWidget(const UMenuWidget&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMenuWidget); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMenuWidget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMenuWidget); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMenuWidget)
 
 

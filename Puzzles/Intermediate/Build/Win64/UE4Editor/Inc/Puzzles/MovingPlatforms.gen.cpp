@@ -33,17 +33,17 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatforms() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActiveTriggers_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Speed_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ActiveTriggers;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Speed;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TargetLocation_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_TargetLocation;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Speed_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActiveTriggers_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Speed;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ActiveTriggers;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -61,14 +61,12 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatforms() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_ActiveTriggers_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_Speed_MetaData[] = {
 		{ "Category", "MovingPlatforms" },
-		{ "Comment", "// Allows platform to move without an assigned trigger by default.\n" },
 		{ "ModuleRelativePath", "MovingPlatforms.h" },
-		{ "ToolTip", "Allows platform to move without an assigned trigger by default." },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_ActiveTriggers = { "ActiveTriggers", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlatforms, ActiveTriggers), METADATA_PARAMS(Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_ActiveTriggers_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_ActiveTriggers_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_Speed = { "Speed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlatforms, Speed), METADATA_PARAMS(Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_Speed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_Speed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_TargetLocation_MetaData[] = {
 		{ "Category", "MovingPlatforms" },
@@ -80,16 +78,18 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatforms() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_TargetLocation = { "TargetLocation", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlatforms, TargetLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_TargetLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_TargetLocation_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_Speed_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_ActiveTriggers_MetaData[] = {
 		{ "Category", "MovingPlatforms" },
+		{ "Comment", "// Allows platform to move without an assigned trigger by default.\n" },
 		{ "ModuleRelativePath", "MovingPlatforms.h" },
+		{ "ToolTip", "Allows platform to move without an assigned trigger by default." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_Speed = { "Speed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlatforms, Speed), METADATA_PARAMS(Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_Speed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_Speed_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_ActiveTriggers = { "ActiveTriggers", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlatforms, ActiveTriggers), METADATA_PARAMS(Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_ActiveTriggers_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_ActiveTriggers_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMovingPlatforms_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_ActiveTriggers,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_TargetLocation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_Speed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_TargetLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatforms_Statics::NewProp_ActiveTriggers,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMovingPlatforms_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMovingPlatforms>::IsAbstract,
@@ -118,7 +118,7 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatforms() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMovingPlatforms, 2310312792);
+	IMPLEMENT_CLASS(AMovingPlatforms, 104572145);
 	template<> PUZZLES_API UClass* StaticClass<AMovingPlatforms>()
 	{
 		return AMovingPlatforms::StaticClass();

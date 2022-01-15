@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodePuzzlesGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APuzzlesGameModeBase, 625212428);
+	IMPLEMENT_CLASS(APuzzlesGameModeBase, 4041108409);
 	template<> PUZZLES_API UClass* StaticClass<APuzzlesGameModeBase>()
 	{
 		return APuzzlesGameModeBase::StaticClass();

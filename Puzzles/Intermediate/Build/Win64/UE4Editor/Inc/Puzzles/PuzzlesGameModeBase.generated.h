@@ -39,7 +39,7 @@ public: \
 	NO_API APuzzlesGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APuzzlesGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APuzzlesGameModeBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APuzzlesGameModeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APuzzlesGameModeBase); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APuzzlesGameModeBase(APuzzlesGameModeBase&&); \
@@ -56,7 +56,7 @@ private: \
 	NO_API APuzzlesGameModeBase(const APuzzlesGameModeBase&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APuzzlesGameModeBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APuzzlesGameModeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APuzzlesGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APuzzlesGameModeBase)
 
 

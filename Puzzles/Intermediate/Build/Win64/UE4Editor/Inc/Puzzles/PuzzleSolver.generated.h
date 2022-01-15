@@ -39,7 +39,7 @@ public: \
 	NO_API APuzzleSolver(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APuzzleSolver) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APuzzleSolver); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APuzzleSolver); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APuzzleSolver); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APuzzleSolver(APuzzleSolver&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API APuzzleSolver(const APuzzleSolver&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APuzzleSolver); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APuzzleSolver); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APuzzleSolver); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APuzzleSolver)
 
 

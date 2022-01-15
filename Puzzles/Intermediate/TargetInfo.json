@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Puzzles",
-			"Path": "C:\\Users\\Angelica .DESKTOP-RM5JOAJ\\Documents\\Learning Multiplayer\\Puzzles\\Puzzles\\Source\\Puzzles.Target.cs",
+			"Path": "F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\Source\\Puzzles.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "PuzzlesEditor",
-			"Path": "C:\\Users\\Angelica .DESKTOP-RM5JOAJ\\Documents\\Learning Multiplayer\\Puzzles\\Puzzles\\Source\\PuzzlesEditor.Target.cs",
+			"Path": "F:\\PORTFOLIO\\Learning Multiplayer\\Puzzles\\Puzzles\\Source\\PuzzlesEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

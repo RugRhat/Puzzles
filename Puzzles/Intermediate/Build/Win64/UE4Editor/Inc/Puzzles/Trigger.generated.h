@@ -52,7 +52,7 @@ public: \
 	NO_API ATrigger(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATrigger) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ATrigger); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATrigger); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATrigger); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATrigger(ATrigger&&); \
@@ -67,7 +67,7 @@ private: \
 	NO_API ATrigger(const ATrigger&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ATrigger); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATrigger); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATrigger); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATrigger)
 
 

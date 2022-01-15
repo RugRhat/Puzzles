@@ -247,7 +247,7 @@ void EmptyLinkFunctionForGeneratedCodePuzzleGameInstance() {}
 		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		UE_ARRAY_COUNT(InterfaceParams),
-		0x001000A8u,
+		0x009000A8u,
 		METADATA_PARAMS(Z_Construct_UClass_UPuzzleGameInstance_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UPuzzleGameInstance_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UPuzzleGameInstance()
@@ -259,7 +259,7 @@ void EmptyLinkFunctionForGeneratedCodePuzzleGameInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPuzzleGameInstance, 1138358652);
+	IMPLEMENT_CLASS(UPuzzleGameInstance, 2328828933);
 	template<> PUZZLES_API UClass* StaticClass<UPuzzleGameInstance>()
 	{
 		return UPuzzleGameInstance::StaticClass();

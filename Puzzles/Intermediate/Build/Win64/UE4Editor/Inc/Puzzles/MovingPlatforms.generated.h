@@ -39,7 +39,7 @@ public: \
 	NO_API AMovingPlatforms(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMovingPlatforms) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMovingPlatforms); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMovingPlatforms); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMovingPlatforms); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMovingPlatforms(AMovingPlatforms&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API AMovingPlatforms(const AMovingPlatforms&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMovingPlatforms); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMovingPlatforms); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMovingPlatforms); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMovingPlatforms)
 
 

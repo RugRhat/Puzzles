@@ -49,7 +49,7 @@ public: \
 	NO_API UInGameMenu(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInGameMenu) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UInGameMenu); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInGameMenu); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInGameMenu); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UInGameMenu(UInGameMenu&&); \
@@ -66,7 +66,7 @@ private: \
 	NO_API UInGameMenu(const UInGameMenu&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UInGameMenu); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInGameMenu); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInGameMenu); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInGameMenu)
 
 

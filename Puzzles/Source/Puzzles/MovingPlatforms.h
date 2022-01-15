@@ -33,7 +33,7 @@ private:
 
 	// Allows platform to move without an assigned trigger by default.
 	UPROPERTY(EditAnywhere)
-	int ActiveTriggers = 1;				
+	int ActiveTriggers = 0;				
 
 protected:
 	virtual void Tick(float DeltaTime) override;

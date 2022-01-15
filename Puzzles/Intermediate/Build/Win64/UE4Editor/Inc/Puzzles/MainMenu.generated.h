@@ -55,7 +55,7 @@ public: \
 	NO_API UMainMenu(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMainMenu) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMainMenu); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMainMenu); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMainMenu); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMainMenu(UMainMenu&&); \
@@ -72,7 +72,7 @@ private: \
 	NO_API UMainMenu(const UMainMenu&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMainMenu); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMainMenu); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMainMenu); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMainMenu)
 
 

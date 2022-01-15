@@ -13,19 +13,19 @@
 UPuzzleGameInstance::UPuzzleGameInstance(const FObjectInitializer &ObjectInitializer) 
 {
     // Allows for more control of Menu ui from source code rather than blueprints.
-    ConstructorHelpers::FClassFinder<UUserWidget>MenuBPClass(TEXT("/Game/Blueprints/UI/WBP_MainMenu"));
+    ConstructorHelpers::FClassFinder<UUserWidget>MenuBPClass(TEXT("/Game/UI/WBP_MainMenu"));
     if(!ensure(MenuBPClass.Class != nullptr)) return;
 
     MenuClass = MenuBPClass.Class;
 
     // Allows for more control of In-Game Menu ui from source code rather than blueprints.
-    ConstructorHelpers::FClassFinder<UUserWidget>InGameMenuBPClass(TEXT("/Game/Blueprints/UI/WBP_InGame"));
+    ConstructorHelpers::FClassFinder<UUserWidget>InGameMenuBPClass(TEXT("/Game/UI/WBP_InGame"));
     if(!ensure(InGameMenuBPClass.Class != nullptr)) return;
 
     InGameMenuClass = InGameMenuBPClass.Class;
 
     // Allows for more control of Win Screen ui from source code rather than blueprints.
-    ConstructorHelpers::FClassFinder<UUserWidget>WinScreenMenuBPClass(TEXT("/Game/Blueprints/UI/WBP_WinScreen"));
+    ConstructorHelpers::FClassFinder<UUserWidget>WinScreenMenuBPClass(TEXT("/Game/UI/WBP_WinScreen"));
     if(!ensure(WinScreenMenuBPClass.Class != nullptr)) return;
 
     WinScreenMenuClass = WinScreenMenuBPClass.Class;
@@ -66,8 +66,6 @@ void UPuzzleGameInstance::LoadWinScreen()
     UWorld* World = GetWorld();
     if(!ensure(World != nullptr)) return;
 
-    World->ServerTravel("/Game/Maps/Lobby");      // Switches to lobby.
-
     if(!ensure(WinScreenMenuClass != nullptr)) return;
 
     UMenuWidget* WinScreen = CreateWidget<UMenuWidget>(this, WinScreenMenuClass);
@@ -93,7 +91,7 @@ void UPuzzleGameInstance::Host()
     UWorld* World = GetWorld();
     if(!ensure(World != nullptr)) return;
 
-    World->ServerTravel("/Game/Maps/Main?listen");      // Switches to main level.
+    World->ServerTravel("/Game/Maps/Level_1?listen");      // Switches to main level.
 }
 
 // Creates console command "Join".
@@ -130,7 +128,7 @@ void UPuzzleGameInstance::Replay()
     UWorld* World = GetWorld();
     if(!ensure(World != nullptr)) return;
 
-    World->ServerTravel("/Game/Maps/Main?listen");      // Switches to main level.
+    World->ServerTravel("/Game/Maps/Level_1?listen");      // Switches to main level.
 
 }
 

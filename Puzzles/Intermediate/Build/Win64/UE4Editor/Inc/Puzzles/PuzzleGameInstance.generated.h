@@ -57,7 +57,7 @@ public: \
 	NO_API UPuzzleGameInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPuzzleGameInstance) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPuzzleGameInstance); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPuzzleGameInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPuzzleGameInstance); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UPuzzleGameInstance(UPuzzleGameInstance&&); \
@@ -72,7 +72,7 @@ private: \
 	NO_API UPuzzleGameInstance(const UPuzzleGameInstance&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPuzzleGameInstance); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPuzzleGameInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPuzzleGameInstance); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPuzzleGameInstance)
 
 

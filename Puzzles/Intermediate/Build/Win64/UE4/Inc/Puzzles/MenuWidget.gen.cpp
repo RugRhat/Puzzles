@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeMenuWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMenuWidget, 501709624);
+	IMPLEMENT_CLASS(UMenuWidget, 2903969162);
 	template<> PUZZLES_API UClass* StaticClass<UMenuWidget>()
 	{
 		return UMenuWidget::StaticClass();

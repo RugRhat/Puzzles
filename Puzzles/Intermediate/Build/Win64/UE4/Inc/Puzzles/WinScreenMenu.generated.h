@@ -49,7 +49,7 @@ public: \
 	NO_API UWinScreenMenu(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UWinScreenMenu) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UWinScreenMenu); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UWinScreenMenu); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UWinScreenMenu); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UWinScreenMenu(UWinScreenMenu&&); \
@@ -66,7 +66,7 @@ private: \
 	NO_API UWinScreenMenu(const UWinScreenMenu&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UWinScreenMenu); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UWinScreenMenu); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UWinScreenMenu); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UWinScreenMenu)
 
 

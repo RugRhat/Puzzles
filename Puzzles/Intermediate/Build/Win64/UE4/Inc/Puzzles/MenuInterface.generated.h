@@ -19,9 +19,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Puzzles_Source_Puzzles_MenuInterface_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	PUZZLES_API UMenuInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMenuInterface) \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMenuInterface) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(PUZZLES_API, UMenuInterface); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMenuInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMenuInterface); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	PUZZLES_API UMenuInterface(UMenuInterface&&); \
@@ -38,8 +38,8 @@ private: \
 	PUZZLES_API UMenuInterface(const UMenuInterface&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(PUZZLES_API, UMenuInterface); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMenuInterface); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMenuInterface)
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMenuInterface); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMenuInterface)
 
 
 #define Puzzles_Source_Puzzles_MenuInterface_h_13_GENERATED_UINTERFACE_BODY() \
